@@ -11,10 +11,11 @@ h1{
 }
 ul {
     list-style-type: none;
-    padding: 5px;
+    padding: 3px;
 }
 
 .container-navigation{
+    background-color:#126C79;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -25,18 +26,19 @@ ul {
 li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
-    margin: 0px 5px;
+    margin: 0px 12px;
     
 }
 
 
 button{
-    border: 1px solid black;
+    border:1px solid black;
     border-radius:15px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size:medium;
     padding: 10px;
     transition-duration: .4s;
+    margin-right:10px;
 }
 
 button:hover{
@@ -62,4 +64,21 @@ button:active{
     align-items: center;
     justify-content: center;
 
+}
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color:darkgray;
+    padding:2px;
 }
