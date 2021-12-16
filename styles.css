@@ -14,10 +14,11 @@ header {
     
 }
 
-h1 {
+h3 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
+    font-size: 20px;
     text-align:center;
+   
 }
 
 ul {
@@ -87,6 +88,17 @@ ul {
     justify-content: center;
 
 }
+.column{
+    float:left;
+    width:20%;
+    padding:15px;
+}
+.row:after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
 
 /* section 3 youtube video */
 
