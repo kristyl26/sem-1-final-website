@@ -21,11 +21,6 @@ h3 {
    
 }
 
-ul {
-    list-style-type: none;
-    padding: 5px;
-}
-
 .container-navigation {
     display: flex;
     flex-wrap: wrap;
@@ -33,29 +28,38 @@ ul {
     align-items: flex-start;
 
 }
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    overflow:hidden;
+    background-color:#333;
+}
+
+
  li{
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
      padding: 10px;
      margin: 0px 3px;
-     border: 1px solid limegreen;
-     border-radius: 10px;
-     background-color:aliceblue;
+     color:white;
+    
+     
  }
 
- button{
-     border: 1px solid blueviolet;
-     border-radius: 5px;
+ li{
+     
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      font-size: large;
      padding: 10px;
      margin: 2px;
      transition-duration: .4s;
  }
- button:hover{
+ li:hover{
      background-color:limegreen;
      color:white;
  }
- button:active{
+ li:active{
      background-color: #3e8e41;
      box-shadow: 0 5px darkred;
      transform: translateY(4px);
@@ -155,6 +159,7 @@ figcaption{
     display:50%;
     padding: 20px;
     margin-top: 5px;
+    margin-left: 10px;
    
 
 }
@@ -164,7 +169,7 @@ figcaption{
 
 .section-five {
     background-color: goldenrod;
-    height: 600px;
+    height: 700px;
 
 }
 .media-container{
@@ -177,12 +182,15 @@ figcaption{
 .mediacontent{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: navy;
-    font-size: 20px;
+    font-size: 40px;
 }
 
-.media-container{
+.media-container .mediacontent{
     flex: 1;
     padding: 10px;
+}
+.report{
+    font-size:30px;
 }
 
 footer{
