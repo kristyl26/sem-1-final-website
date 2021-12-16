@@ -47,14 +47,7 @@ ul {
      
  }
 
- li{
-     
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     font-size: large;
-     padding: 10px;
-     margin: 2px;
-     transition-duration: .4s;
- }
+ 
  li:hover{
      background-color:limegreen;
      color:white;
@@ -118,6 +111,7 @@ ul {
     text-align: center;
     font-size:30px;
     margin-top: 10px;
+    display:flex;
 }
 
 .column{
