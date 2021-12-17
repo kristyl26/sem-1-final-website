@@ -56,7 +56,7 @@ ul {
 /* section one flex grow and shrink */
 
 .section-one {
-    background-color: blueviolet;
+    background-color:#A7C7E7;
     height: 700px;
     display: flex;
     flex-wrap: wrap;
@@ -73,7 +73,7 @@ ul {
 /* section 2 center item */
 
 .section-two {
-    background-color: orangered;
+    background-color:lightblue;
     height: 700px;
     display: flex;
     flex-wrap:wrap;
@@ -91,7 +91,7 @@ ul {
 /* section 3 youtube video */
 
 .section-three {
-    background-color: lightcoral;
+    background-color:#6082B6;
     height: 700px;
     display: flex;
     flex-wrap: wrap;
@@ -126,7 +126,7 @@ ul {
 /* section 4 embed audio */
 
 .section-four {
-    background-color: darkslateblue;
+    background-color:#6F8FAF;
     height: 800px;
     display: flex;
     flex-wrap: wrap;
@@ -157,8 +157,8 @@ figcaption{
 /* section 5 media items */
 
 .section-five {
-    background-color: goldenrod;
-    height: 700px;
+    background-color: #89CFF0;
+    height: 800px;
 
 }
 .media-container{
@@ -179,7 +179,8 @@ figcaption{
     padding: 10px;
 }
 .report{
-    font-size:30px;
+    margin-bottom:100px;
+    font-size:24px;
 }
 
 footer{
@@ -192,13 +193,10 @@ footer{
     padding: 10px 0px;
 }
 
-.section-five{
-    background-color:goldenrod;
-}
 
 .CARP-section-one{
-    background-color:beige;
-    height: 400px;
+    background-color:lightgray;
+    height: 700px;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -220,8 +218,10 @@ a span{
     display:none;
     position:absolute;
     bottom:0;
-    width:100%;
-    padding:10px;
+    left:0;
+    right:0;
+    width:97%;
+    padding:5px;
     background:rgba(255,255,255,.8);
 }
 
@@ -231,7 +231,7 @@ a:hover span{
 
 .CARP-section-two{
     background-color:cadetblue;
-    height:400px;
+    height:650px;
     padding:0px;
     display:flex;
     flex-direction: column;
@@ -242,7 +242,7 @@ a:hover span{
 
 .CARP-section-three{
     background-color:darkkhaki;
-    height:400px;
+    height:650px;
     padding:0px;
     display:flex;
     flex-direction: column;
@@ -253,7 +253,7 @@ a:hover span{
 
 .coding-worksheet{
     background-color:darksalmon;
-    height:700px;
+    height:650px;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -286,7 +286,7 @@ a:hover span{
 /*typo task*/
 
 .typo-section-one{
-    background-color:goldenrod;
+    background-color:oldlace;
     height:300px;
     display:flex;
     flex-wrap: wrap;
@@ -350,8 +350,151 @@ a:hover span{
 
 .dila-desc{
     margin-top: 50px;
+    margin-right:70px;
     padding:5px;
     font-family: Arial, Helvetica, sans-serif;
     text-align:left;
     font-size: 20px;
+}
+
+.typo-section-four{
+    background-color:navajowhite;
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-items: center;
+}
+
+
+.random{
+    font-size:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.random-desc{
+    margin-top: 50px;
+   
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size: 20px;
+}
+
+.typo-section-five{
+    background-color:powderblue;
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-items: center;
+}
+
+
+.grid{
+    font-size:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.grid-desc{
+    margin-top: 50px;
+    margin-right:340px;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size: 20px;
+}
+
+.typo-section-six{
+    background-color:rosybrown;
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-items: center;
+}
+
+
+.modular{
+    font-size:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.modular-desc{
+    margin-top: 50px;
+    margin-right:50px;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size: 20px;
+}
+
+.typo-section-7{
+    background-color:slategrey;
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-items: center;
+}
+
+
+.trans{
+    font-size:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.trans-desc{
+    margin-top: 50px;
+    margin-right:300px;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size: 20px;
+}
+
+.typo-section-8{
+    background-color:seashell;
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-items: center;
+}
+
+
+.bila{
+    font-size:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bila-desc{
+    margin-top: 50px;
+    margin-right: 130px;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size: 20px;
+}
+
+.about-me{
+    background-color:tan;
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-items: center;
+}
+
+.me{
+    text-align: center;
+    margin-top:100px;
+    font-size:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
