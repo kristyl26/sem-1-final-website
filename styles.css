@@ -9,12 +9,7 @@ body{
 
 
 
-h3 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align:center;
-   
-}
+
 
 .container-navigation {
     display: flex;
@@ -26,7 +21,7 @@ h3 {
 
 ul {
     list-style-type: none;
-    position: sticky;
+    position: static;
     top:0;
     margin:0;
     width:99%;
@@ -89,8 +84,9 @@ ul {
 }
 
 
-.coding{
+.heading{
     font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* section 3 youtube video */
 
@@ -140,8 +136,9 @@ ul {
     
 }
 figcaption{
-    font-family:cursive;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    font-size:40px;
     color:aliceblue;
 
 }
@@ -284,4 +281,77 @@ a:hover span{
     text-align:center;
     font-size:30px;
     color:white;
+}
+
+/*typo task*/
+
+.typo-section-one{
+    background-color:goldenrod;
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.axial{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.axial-desc{
+    margin-top: 50px;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size: 20px;
+}
+
+.typo-section-two{
+    background-color:lightblue;
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-items: center;
+}
+
+.radical{
+    font-size:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.radical-desc{
+    margin-top: 50px;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size: 20px;
+}
+
+.typo-section-three{
+    background-color:lightsteelblue;
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-items: center;
+}
+
+
+.dila{
+    font-size:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dila-desc{
+    margin-top: 50px;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size: 20px;
 }
